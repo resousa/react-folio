@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "../components/Grid";
+import { Container } from "../components/Grid";
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
 import ProjectCarousel from "../components/ProjectCarousel"
@@ -6,7 +6,9 @@ import ProjectCarousel from "../components/ProjectCarousel"
 function Portfolio() {
   return (
     <Container fluid>
+      <Jumbotron>
           <ProjectCarousel />
+          </Jumbotron>
     </Container>
   );
 }
