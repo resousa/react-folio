@@ -29,6 +29,9 @@ function About() {
           class so far, and cant wait to continue learning. I am really excited
           to see what the future may hold!
         </Jumbotron>
+        <div className="container2 mx-auto" id="portfolio">
+        <h1>Projects</h1>
+    </div>
       </Row>
     </Container>
   );

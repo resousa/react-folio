@@ -13,7 +13,7 @@ function NavBar() {
         <Nav.Link href="/portfolio"><a>Portfolio</a></Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/books"><a>Contact</a></Nav.Link>
+        <Nav.Link href="/contact"><a>Contact</a></Nav.Link>
       </Nav.Item>
     </Nav>
   );

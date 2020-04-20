@@ -1,19 +1,16 @@
 import { Col, Container, Row } from "../components/Grid";
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
+import ProjectCarousel from "../components/ProjectCarousel"
 
-function Portfolio(props) {
+function Portfolio() {
   return (
     <Container fluid>
-      <Row>
-        <Col size="md-12">
-          <Jumbotron>
-            <h1>dfghjkljhgfhjkl</h1>
-          </Jumbotron>
-        </Col>
-      </Row>
+          <ProjectCarousel />
     </Container>
   );
 }
 
 export default Portfolio;
+
+
