@@ -8,11 +8,10 @@ function Portfolio() {
     <Container fluid>
       <Jumbotron>
           <ProjectCarousel />
-          </Jumbotron>
+      </Jumbotron>
     </Container>
   );
 }
-
 export default Portfolio;
 
 

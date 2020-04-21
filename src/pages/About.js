@@ -1,16 +1,15 @@
-import { Container, Row } from "../components/Grid";
+import { Container } from "../components/Grid";
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
 import Me from "../assets/images/me.jpg";
-import Contact from "../pages/Contact"
-import Portfolio from "../pages/Portfolio";
+
 
 function About() {
   return (
     <Container fluid>
-      <Row>
+
         <Jumbotron>
-          <h1>About Me</h1>
+          <h1>Dev Profile:</h1>
           <img
             src={Me}
             class="rounded mx-auto d-block"
@@ -30,14 +29,8 @@ function About() {
           I was really excited to give it a shot. I have really enjoyed the
           class so far, and cant wait to continue learning. I am really excited
           to see what the future may hold!
-          </Jumbotron>
-      
-        <Portfolio />
-        <div id="portfolio"></div>
-        <Contact />
-        <div id="contact"></div>
-        
-      </Row>
+          </Jumbotron>        
+
     </Container>
     
   );

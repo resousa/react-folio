@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import './style.css';
 import Nav from "react-bootstrap/Nav";
@@ -6,8 +7,8 @@ import Navbar from "react-bootstrap/Navbar";
 
 function NavBar() {
   return (
-  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">Ryan Sousa</Navbar.Brand>
+  <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar.Brand href="#about">Ryan Sousa</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
