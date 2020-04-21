@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import NoMatch from './pages/NoMatch';
 import Contact from './pages/Contact';
 import React from 'react';
+import './App.css'
 
 function App() {
     return (

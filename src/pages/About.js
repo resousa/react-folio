@@ -2,6 +2,8 @@ import { Container, Row } from "../components/Grid";
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
 import Me from "../assets/images/me.jpg";
+import Contact from "../pages/Contact"
+import Portfolio from "../pages/Portfolio";
 
 function About() {
   return (
@@ -28,9 +30,16 @@ function About() {
           I was really excited to give it a shot. I have really enjoyed the
           class so far, and cant wait to continue learning. I am really excited
           to see what the future may hold!
-        </Jumbotron>
+          </Jumbotron>
+      
+        <Portfolio />
+        <div id="portfolio"></div>
+        <Contact />
+        <div id="contact"></div>
+        
       </Row>
     </Container>
+    
   );
 }
 
